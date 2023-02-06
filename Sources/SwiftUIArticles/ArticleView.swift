@@ -10,7 +10,7 @@ import MarkdownUI
 
 public struct ArticleView: View {
     let article: Article
-    var body: some View {
+    public var body: some View {
         ScrollView {
             VStack(alignment: .leading) {
                 image

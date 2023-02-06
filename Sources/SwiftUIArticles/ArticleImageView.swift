@@ -16,7 +16,11 @@ struct ArticleImageView: View {
             AsyncImage(url: url) { image in
                 image.articleImageModifier(preview: preview)
             } placeholder: {
-                ProgressView()
+                HStack {
+                    Spacer()
+                    ProgressView().padding()
+                    Spacer()
+                }
             }
         } else if let imageName  = article.imageName {
             Image(imageName).articleImageModifier(preview: preview)
