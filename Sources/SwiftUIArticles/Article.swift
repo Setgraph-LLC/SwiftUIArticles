@@ -19,9 +19,9 @@ public struct Article {
     }
 }
 
-var exampleArticle = Article(title: "Understading SwiftUIArticles", previewDescription: "Using articles in your projects.", navigationTitle: "SwiftUIArticles",
+var exampleArticle = Article(title: "Understanding SwiftUIArticles", previewDescription: "Using articles in your projects.", navigationTitle: "SwiftUIArticles",
                              imageUrl: URL(string: "https://i0.wp.com/shinesolutions.com/wp-content/uploads/2021/08/1024.jpeg?fit=1024%2C576&ssl=1"), markdownContent: MarkdownContent("""
-          # Understading SwiftUIArticles
+          # Understanding SwiftUIArticles
           
           **MarkdownUI** is a native Markdown renderer for SwiftUI
           compatible with the

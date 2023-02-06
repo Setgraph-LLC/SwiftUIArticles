@@ -4,6 +4,8 @@
 
 Create your content using the Article struct and feed it into the views you want to use.
 
+![article preview](https://user-images.githubusercontent.com/13791726/217072845-5f25a6b5-7afe-401b-8ac3-a88c7911f774.png)![full article](https://user-images.githubusercontent.com/13791726/217072829-b152a91c-17f0-42f8-b986-6af7b1f893bd.png)
+
 ## ArticlePreview
 **ArticlePreview** can be used to preview the content of your article.
 
