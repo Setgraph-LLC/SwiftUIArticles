@@ -9,7 +9,7 @@ public struct Article {
     let imageName: String?
     let markdownContent: MarkdownContent
     
-    init(title: String, previewDescription: String, navigationTitle: String, imageUrl: URL? = nil, imageName: String? = nil, markdownContent: MarkdownContent) {
+    public init(title: String, previewDescription: String, navigationTitle: String, imageUrl: URL? = nil, imageName: String? = nil, markdownContent: MarkdownContent) {
         self.title = title
         self.previewDescription = previewDescription
         self.navigationTitle = navigationTitle

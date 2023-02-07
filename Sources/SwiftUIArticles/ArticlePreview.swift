@@ -10,6 +10,11 @@ import MarkdownUI
 
 public struct ArticlePreview: View {
     var article: Article
+    
+    public init(article: Article) {
+        self.article = article
+    }
+    
     public var body: some View {
         VStack(alignment: .leading, spacing: 0) {
             ArticleImageView(article: article, preview: true)

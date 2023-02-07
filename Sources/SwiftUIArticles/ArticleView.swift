@@ -10,6 +10,11 @@ import MarkdownUI
 
 public struct ArticleView: View {
     let article: Article
+    
+    public init(article: Article) {
+        self.article = article
+    }
+    
     public var body: some View {
         ScrollView {
             VStack(alignment: .leading) {
