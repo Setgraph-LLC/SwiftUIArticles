@@ -2,12 +2,12 @@ import SwiftUI
 import MarkdownUI
 
 public struct Article {
-    let title: String
-    let previewDescription: String
-    let navigationTitle: String
-    let imageUrl: URL?
-    let imageName: String?
-    let markdownContent: MarkdownContent
+    public let title: String
+    public let previewDescription: String
+    public let navigationTitle: String
+    public let imageUrl: URL?
+    public let imageName: String?
+    public let markdownContent: MarkdownContent
     
     public init(title: String, previewDescription: String, navigationTitle: String, imageUrl: URL? = nil, imageName: String? = nil, markdownContent: MarkdownContent) {
         self.title = title
