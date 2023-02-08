@@ -35,7 +35,7 @@ extension Image {
         self
             .resizable()
             .scaledToFill()
-            .frame(maxHeight: preview ? 200 : 300)
+            .frame(maxHeight: preview ? 200 : 320)
             .clipped()
    }
 }
