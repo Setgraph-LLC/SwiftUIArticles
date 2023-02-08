@@ -23,7 +23,7 @@ public struct ArticleView: View {
                     .padding()
             }
         }
-        .navigationTitle(article.title)
+        .navigationTitle(article.navigationTitle)
         .navigationBarTitleDisplayMode(.inline)
     }
     
